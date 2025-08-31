@@ -11,15 +11,3 @@ Currently, two official plugins are available:
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
-
-
-src/
- ├─ App.tsx           → roteamento fake (switch)
- ├─ pages/
- │   ├─ Home.tsx
- │   ├─ Tasks.tsx     → contém a lógica da lista de tarefas
- │   └─ About.tsx
- └─ components/
-     ├─ TaskForm.tsx  → formulário (validação com early return)
-     ├─ TaskList.tsx  → renderiza lista com map/filter
-     └─ TaskItem.tsx  → cada tarefa
